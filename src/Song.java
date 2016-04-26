@@ -26,4 +26,8 @@ public class Song {
 	public void setTitle(String t) { title = t; };
 	public void setArtist(String a) { artist = a; };
 	public void setPrice(double p) { price = p; };
+	
+	public String toString() {
+		return title + "   -   " + artist + "   -   " + price + "€";
+	}
 }
